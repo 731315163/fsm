@@ -1,11 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net40</TargetFrameworks>
+    <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
+
 
   <ItemGroup>
     <ProjectReference Include="..\InstantNoodle.Router\InstantNoodle.Router.csproj" />
   </ItemGroup>
-
 </Project>

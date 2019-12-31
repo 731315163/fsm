@@ -1,0 +1,31 @@
+The MIT License (MIT)
+Messenger.cs v1.0 by Magnus Wolffelt, magnus.wolffelt@gmail.com
+Version 1.4 by Julie Iaccarino, biscuitWizard @ github.com
+Version 1.5 by zt，731315163@qq.com
+
+Inspired by and based on Rod Hyde's Messenger:
+http://www.unifycommunity.com/wiki/index.php?title=CSharpMessenger
+
+This is a C# messenger (notification center). It uses delegates
+and generics to provide type-checked messaging between event producers and
+event consumers, without the need for producers or consumers to be aware of
+each other. The major improvement from Hyde's implementation is that
+there is more extensive error detection, preventing silent bugs.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
